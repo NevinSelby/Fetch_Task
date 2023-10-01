@@ -3,5 +3,4 @@ matplotlib
 tensorflow
 keras
 scikit-learn
-sklearn
 scipy
