@@ -96,3 +96,4 @@ else:
     plt.title('Predicted Receipt_Count for 2022')
     plt.legend()
     st.pyplot(plt)
+    st.write("As you can see here, the model is predicting 2.35-2.4 * 10^8 for Jan month in the year 2022. This model is looking at seasonal trends, instead of growth trend. Thus, we see similar patterns (drops in certain months like February) in both graphs, instead of a single continuous line from 2021 to 2022. For the model to be more accurate, more data would be required (atleast 1 more year).")
